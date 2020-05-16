@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google-Homepage</title>
+    <style>
+        .center-horizontally {
+            text-align: center;
+            
+        }
+        #logo{
+            margin-top: 7.6%;
+        }
+        #main-search {
+            margin:1.1%;
+            width: 27%;
+        }
+        .search-buttons {
+            background-color:rgba(192,192,192,0.15);
+            color:rgba(100,100,100,1);
+            padding: 5px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-color: rgba(0,0,0,0.001);
+            margin: 5px;
+            font-size:2pem;
+            
+        }
+        .search-buttons:hover{
+            border-color:rgba(70,70,70,0.2);
+        }
+        #buttons-div{
+            margin-top: 0.7%;
+        }
+
+        .nav-buttons{
+            background-color: transparent;
+            border-color: transparent;
+            font-size: 0.8em;
+            
+        }
+
+        .nav-buttons:hover{
+            text-decoration: underline;
+        }
+
+        .nav-buttons-left{
+           
+            margin: 1em;
+            margin-left:0.7em;
+            margin-right:0;
+        }
+
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+        footer {
+            margin:0;
+            margin-top:26%;
+        }
+        #footer-div{
+            margin:0;
+            display:flex;
+            justify-content: space-between;
+        }
+
+        
+
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div id="div-left">
+            <button class="nav-buttons nav-buttons-left">About</button>
+            <button class="nav-buttons nav-buttons-left">Store</button>
+        </div>
+        <div id="div-right">
+            <button class="nav-buttons nav-buttons-left">Gmail</button>
+            <button class="nav-buttons nav-buttons-left">Images</button>
+        </div>    
+    </nav>
+    <div id="logo" class="center-horizontally">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
+    </div>
+
+    <div class="center-horizontally">
+        <input id="main-search" type="text">
+    </div>
+
+    <div id="buttons-div" class ="center-horizontally">
+        <button class="search-buttons">Google Search</button>
+        <button class="search-buttons">I'm Feeling Lucky</button>
+    </div>
+    
+    <footer>
+       <div id="footer-div">
+        <div id="left-footer">
+            <button class="nav-buttons">Advertising</button>
+            <button class="nav-buttons">Business</button>
+            <button class="nav-buttons">How it works</button>
+        </div>
+        <div id="right-footer">
+            <button class="nav-buttons">Privacy</button>
+            <button class="nav-buttons">Terms</button>
+            <button class="nav-buttons">Settings</button>
+            </div>
+       </div> 
+    </footer>
+</body>
+
+    
+
+</html>
